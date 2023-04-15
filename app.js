@@ -16,7 +16,7 @@ var orderdishRouter=require('./routes/orderdishRouter');
 var reveiwRouter=require('./routes/reveiwRouter');
 var mongoose= require('mongoose');
 
-const connect=mongoose.connect('mongodb://127.0.0.1:27017/Demo',{
+const connect=mongoose.connect('mongodb+srv://root:root@cluster0.g9gqqdk.mongodb.net/?retryWrites=true&w=majority',{
   useCreateIndex:true,
   useNewUrlParser:true,
   useUnifiedTopology:true
